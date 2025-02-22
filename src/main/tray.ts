@@ -241,7 +241,7 @@ const initTray = (mainWindow: BrowserWindow) => {
     {
       label: cl.feedback,
       click: () => {
-        shell.openExternal('https://github.com/zenghongtu/PPet/issues')
+        shell.openExternal('https://github.com/anonymity12/PPet/issues')
       },
     },
     {

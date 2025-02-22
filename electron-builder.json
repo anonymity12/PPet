@@ -67,7 +67,7 @@
   "publish": [
     {
       "provider": "github",
-      "owner": "zenghongtu",
+      "owner": "郑天天",
       "repo": "PPet"
     }
   ],
