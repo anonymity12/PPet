@@ -40,7 +40,7 @@ const RenderWrapper = styled.div`
 const getCavSize = () => {
   return {
     width: window.innerWidth,
-    height: window.innerHeight - 20,
+    height: window.innerHeight+20,
   }
 }
 

@@ -4,7 +4,7 @@ export type LegacyType = { modelPath: string; width: number; height: number }
 
 const Legacy: FC<LegacyType> = ({ modelPath, height, width }) => {
   const isMountRef = useRef(false)
-
+  console.log('Legacy mode: modelPath: ', modelPath)
   useEffect(() => {
     ;(window as any).loadlive2d('live2d', modelPath)
   }, [modelPath])

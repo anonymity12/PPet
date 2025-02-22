@@ -33,6 +33,7 @@ const Current: FC<CurrentType> = ({ modelPath, width, height }) => {
       autoMotion: true,
     })
   }, [modelPath, width, height])
+  console.log('Current mode: modelPath: ', modelPath)
 
   return <div className="live2d" ref={live2dRef} key={+new Date()}></div>
 }

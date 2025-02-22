@@ -7,7 +7,7 @@
   "main": "dist/main/index.cjs",
   "repository": "https://github.com/anonymity12/PPet.git",
   "homepage": "https://github.com/anonymity12/PPet",
-  "author": "anonymity12 <anonymity12@gmail.com>",
+  "author": "郑天天 <anonymity12@gmail.com>",
   "scripts": {
     "start": "node scripts/watch.mjs",
     "build": "node scripts/build.mjs",
