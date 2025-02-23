@@ -19,6 +19,7 @@ const Wrapper = styled.div`
   transition: opacity 1s;
   width: calc(100% - 50px);
   word-break: break-all;
+  z-index: 1000;
 
   span {
     color: #0099cc;
